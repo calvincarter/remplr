@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/userAuth.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": ["username", "password"],
+  "properties": {
+    "username": {
+      "type": "string",
+      "default": "",
+      "title": "The username Schema",
+      "examples": ["testUser"]
+    },
+    "password": {
+      "type": "string",
+      "default": "",
+      "title": "The password Schema",
+      "examples": ["Test123!"]
+    }
+  },
+  "examples": [
+    {
+      "username": "testUser",
+      "password": "Test123!"
+    }
+  ]
+}

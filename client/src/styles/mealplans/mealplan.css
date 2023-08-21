@@ -1,0 +1,89 @@
+.mealplan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 180px;
+  background-color: #16703c;
+  width: 100%;
+}
+.mealplan-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f1f5f2;
+  padding: 1%;
+  margin: 5%;
+}
+.mealplan-table {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  border-radius: 25px;
+  background-color: #f1f5f2;
+  width: 100%;
+}
+
+.mealplan .recipes-card {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  width: 120px;
+  height: 120px;
+}
+.mealplan .recipes-card img {
+  width: 90%;
+}
+
+.mealplan-type {
+  transform: rotate(-90deg);
+  height: 1%;
+  padding: 0;
+  margin: 0;
+}
+
+.mealplan-recipes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mealplan .recipe {
+  align-items: center;
+  width: 200%;
+  padding: 5%;
+  margin: 2%;
+}
+
+.mealplan .recipe-header {
+  width: 50%;
+}
+
+.mealplan .recipe-details {
+  width: 100%;
+}
+/* Mobile screen rotation */
+@media (max-width: 768px) {
+  .mealplan-table {
+    text-align: center;
+    transform: rotate(90deg);
+    margin: 250px 0;
+    width: 100vh;
+    padding: 0;
+  }
+
+  .mealplan .recipes-card {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    width: 80px;
+    height: 90px;
+    margin: 0 9px;
+    padding: 0;
+  }
+
+  .mealplan-table td {
+    transform: rotate(-90deg);
+  }
+}

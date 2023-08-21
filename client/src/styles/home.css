@@ -1,0 +1,396 @@
+html,
+body {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+/* Styling for header */
+
+.home-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: #f1f5f2;
+  border-bottom-left-radius: 80% 20%;
+  border-bottom-right-radius: 80% 20%;
+  overflow: hidden;
+}
+
+.home-header img {
+  width: 80px;
+  margin: 10px 30px;
+}
+
+.home-text {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 10%;
+  right: 10%;
+  font-size: 180%;
+  margin: 0%;
+}
+
+.home h1 {
+  font-size: 300%;
+  margin: 0%;
+  font-weight: 300;
+}
+
+.home-header small {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  word-spacing: 0.2em;
+}
+
+/* Styling for about */
+
+.home-about {
+  display: flex;
+  background-color: #16703c;
+  padding-top: 50%;
+  height: 100%;
+  margin-top: -50%;
+}
+
+.home-about h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300;
+  font-size: 400%;
+  padding-bottom: 5%;
+}
+
+.home-about p {
+  font-size: 120%;
+}
+
+.home-about-img {
+  width: 100%;
+  background-image: url("../images/about.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 25px;
+}
+
+.home-about-text {
+  padding: 7%;
+  margin: 4% 0%;
+  text-align: left;
+  color: #f1f5f2;
+  max-height: 100%;
+}
+
+/* Styling for call to action section */
+
+.home-action {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/calltoaction.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #f1f5f2;
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.home-action h1 {
+  font-family: "JetBrains Mono", monospace;
+  margin: 2% 0;
+  padding: 8% 0;
+  font-size: 350%;
+}
+
+.home-action-steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.home-action-step {
+  padding: 0.5%;
+  max-width: 100%;
+  margin: 0 5%;
+}
+
+.home-action small {
+  background-color: #16703c;
+  border-radius: 60% 10%;
+  padding: 6%;
+}
+
+.home-action-step h3 {
+  font-weight: 300;
+  font-size: 140%;
+  margin: 8% 0;
+}
+
+.home-action-button button {
+  width: 150px;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 20px 15px;
+  background-color: #f1f5f2;
+  border: 2px solid #011627;
+  font-size: 100%;
+  cursor: pointer;
+  border-bottom-width: 5px;
+}
+
+.home-action-button button:hover {
+  background-color: #011627;
+  color: #27c267;
+  border: 2px solid #16703c;
+  border-bottom-width: 5px;
+}
+
+.home-action-button button:active {
+  font-size: 80%;
+}
+
+/* Styling for action plan for logged in user */
+
+.home-login-action {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/calltoaction.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f1f5f2;
+  text-align: center;
+}
+
+.home-login-action-step h3 {
+  padding: 200px;
+}
+
+.home-login-action-step small {
+  background-color: #16703c;
+  border-radius: 10px;
+  padding: 0 10%;
+  font-size: 200%;
+}
+
+/* Styling for Features section */
+
+.home-features {
+  height: 100%;
+  background-color: #16703c;
+  color: #f1f5f2;
+  padding: 4% 0;
+  margin: -100px 0;
+  padding-top: 90px;
+}
+
+.home-features h1 {
+  font-family: "JetBrains Mono", monospace;
+  padding: 5%;
+  font-size: 350%;
+}
+
+.home-features-cards {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5%;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.home-features-cards a {
+  margin: 3%;
+  text-decoration: none;
+  color: #d7dfda;
+  width: 100%;
+}
+
+.home-features-cards a h3 {
+  padding: 20%;
+}
+
+.home-features-card1 {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/feature1.webp");
+}
+
+.home-features-card2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/feature2.webp");
+}
+
+.home-features-card3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/featur3.webp");
+}
+
+.home-features-card1,
+.home-features-card2,
+.home-features-card3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2%;
+  margin: 2%;
+  height: 35vh;
+  border-radius: 26px;
+}
+
+.home-features-card1 h3,
+.home-features-card2 h3,
+.home-features-card3 h3 {
+  font-size: 150%;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background-color: #f1f5f2;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.home-features-card1 small,
+.home-features-card2 small,
+.home-features-card3 small {
+  font-size: 140%;
+  font-weight: 800;
+}
+
+/* Styling for Reviews section */
+
+.home-reviews {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: #f1f5f2;
+  padding: 5% 5%;
+  padding-bottom: 50%;
+  margin-bottom: -50%;
+}
+
+.home-review-container,
+.home-review-title {
+  padding: 1% 0;
+  margin: 3% 1%;
+  width: 60%;
+}
+
+.home-review {
+  padding: 1%;
+  margin: 12% 0;
+  font-size: 130%;
+  font-weight: 400;
+}
+
+.home-review-title h1,
+h2 {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.home-review-title h1 {
+  font-weight: 200;
+  font-size: 300%;
+}
+.home-review-title h2 {
+  font-size: 200%;
+  font-weight: 100;
+  width: 50%;
+}
+
+/* Styling for contact section */
+
+.home-contact {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/contact.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f1f5f2;
+  flex-direction: column;
+  padding: 8%;
+  height: 100%;
+  padding-bottom: 3%;
+  border-top-left-radius: 80% 20%;
+  border-top-right-radius: 80% 20%;
+  overflow: hidden;
+}
+
+.home-contact h1 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 300%;
+}
+
+.home-contact h3 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 150%;
+}
+
+.home-contact p {
+  padding: 15%;
+  margin: 5% 0;
+}
+
+.home-contact-socials {
+  padding: 10%;
+}
+.home-contact-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-contact-social-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 130%;
+  font-weight: 300;
+}
+
+.home-contact-social-container small {
+  padding: 0.5% 0;
+}
+
+.home-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.home-footer small {
+  margin: 0 12px;
+}
+
+@media (max-width: 780px) {
+  .home-features {
+    height: 165vh;
+  }
+  .home-features-cards {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .home-action-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-action-step {
+    margin: 2%;
+    width: 50%;
+  }
+}

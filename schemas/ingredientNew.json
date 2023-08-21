@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Ingredient Schema",
+  "required": ["aisle", "image", "name", "original", "amount", "unit"],
+  "properties": {
+    "aisle": {
+      "type": "string",
+      "default": "",
+      "title": "The aisle Schema",
+      "examples": ["Produce"]
+    },
+    "image": {
+      "type": "string",
+      "default": "",
+      "title": "The image Schema",
+      "examples": ["https://www.grocerystore.com/images/apple.jpg"]
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "title": "The name Schema",
+      "examples": ["Apple"]
+    },
+    "original": {
+      "type": "string",
+      "default": "",
+      "title": "The original Schema",
+      "examples": ["A fresh apple from the local farm"]
+    },
+    "amount": {
+      "type": "number",
+      "default": 0.0,
+      "title": "The amount Schema",
+      "examples": [1.0]
+    },
+    "unit": {
+      "type": "string",
+      "default": "",
+      "title": "The unit Schema",
+      "examples": ["piece"]
+    }
+  },
+  "examples": [
+    {
+      "aisle": "Produce",
+      "image": "https://www.grocerystore.com/images/apple.jpg",
+      "name": "Apple",
+      "original": "A fresh apple from the local farm",
+      "amount": 1.0,
+      "unit": "piece"
+    }
+  ]
+}

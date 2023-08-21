@@ -1,0 +1,65 @@
+svg {
+  font-size: 150%;
+  padding: 3%;
+  margin: 1%;
+  /* color: #bb0a21; */
+  cursor: pointer;
+}
+
+.nutrition-table {
+  background-color: #f1f5f2;
+  margin: 2%;
+  width: 460px;
+  border: 2px black solid;
+}
+
+.nutrition-th {
+  font-weight: 500;
+  padding: 2%;
+}
+.nutrition-thead {
+  background-color: #6f8f72;
+  color: #f1f5f2;
+}
+
+.nutrition-tbody {
+  background-color: #f1f5f2;
+}
+
+.nutrition-td {
+  background-color: #d1dcd2;
+  padding: 5px;
+}
+
+/* Default styles for the heart icon before it's saved */
+.save-heart {
+  color: #011627;
+  cursor: pointer;
+  font-size: 54px;
+  transition: color 0.3s ease;
+}
+
+/* Style when the heart icon is hovered */
+.save-heart:hover {
+  color: #ff6b6b; /* Light red color for hover effect */
+}
+
+/* Styles for the heart icon after it's saved */
+.saved-heart {
+  color: #ff6b6b; /* Red color to indicate it's saved */
+  cursor: pointer;
+  font-size: 74px;
+  transition: color 0.3s ease;
+}
+
+/* Optionally, you can also add a hover effect for the saved state */
+.saved-heart:hover {
+  color: #e63946; /* Slightly darker red on hover */
+}
+
+.userSavedIngredients .saved-heart {
+  font-size: 44px;
+}
+.userSavedRecipes .saved-heart {
+  font-size: 44px;
+}

@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  background-color: #16703c;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #16703c;
+  padding-top: 70px;
+  height: 100%;
+}
+
+.ingredients h1 {
+  color: #f1f5f2;
+  text-align: center;
+}
+
+.ingredients-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ingredients-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f5f2;
+  border: 1px solid #16703c;
+  padding: 10px;
+  padding-top: 0;
+  margin: 6%;
+  width: 180px;
+  height: 300px;
+  border: 2px solid #011627;
+}
+
+.ingredients-card img {
+  width: 70%;
+  padding-left: 15px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.ingredients-card h3 {
+  color: #16703c;
+  width: 90%;
+  text-align: center;
+  margin: 0;
+  font-size: 120%;
+}
+
+.ingredients a {
+  color: #16703c;
+  text-decoration: none;
+  max-height: 10%;
+}

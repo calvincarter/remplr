@@ -1,0 +1,13 @@
+.emptyItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f1f5f2;
+  height: 100vh;
+  padding-top: 10%;
+  font-size: 190%;
+}
+
+.emptyItem img {
+  width: 100%;
+}

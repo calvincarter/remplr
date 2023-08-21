@@ -1,0 +1,16 @@
+.mealplanner-steps {
+  display: flex;
+  flex-direction: column;
+  font-size: 140%;
+  font-weight: 300;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("../../images/mealplanner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f1f5f2;
+  overflow: hidden;
+  margin: 2% 10%;
+  width: 80%;
+  padding: 2%;
+}

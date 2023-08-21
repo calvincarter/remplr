@@ -1,0 +1,86 @@
+.meal-type {
+  text-align: center;
+  transform: rotate(-90deg);
+  background: none;
+  width: 10px;
+}
+
+.meal-cell {
+  position: relative;
+  border: 2px black solid;
+  height: 100px;
+  width: 100px;
+}
+
+.meal-cell .recipes-card {
+  width: 160px;
+  height: 150px;
+  margin: 1px;
+}
+
+.meal-cell .recipes-card h3 {
+  font-size: 50%;
+}
+
+.meal-cell .recipes-card .save-heart {
+  display: none;
+}
+
+.meal-cell:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../../images/plus.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+
+.breakfast-button,
+.lunch-button,
+.snack-button,
+.dinner-button {
+  background: none;
+  border: none;
+  color: red;
+  padding: 0;
+  padding-left: 4px;
+  margin: 0;
+  font-size: 130%;
+  cursor: pointer;
+}
+
+.breakfast-button:hover,
+.lunch-button:hover,
+.snack-button:hover,
+.dinner-button:hover {
+  font-size: 190%;
+}
+
+.breakfast-button:active,
+.lunch-button:active,
+.snack-button:active,
+.dinner-button:active {
+  font-size: 120%;
+  color: #6b0504;
+}
+
+@media (max-width: 768px) {
+  .meal-cell .recipes-card {
+    width: 75px;
+    height: 75px;
+    padding: 2%;
+    margin: 0;
+  }
+
+  .meal-cell .recipes-card img {
+    width: 50%;
+  }
+
+  .meal-cell .recipes-card h3 {
+    font-size: 46%;
+  }
+}

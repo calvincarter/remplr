@@ -1,0 +1,227 @@
+.mealplanner {
+  background-color: #2b7878;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 110%;
+  background-color: #16703c;
+  padding-top: 150px;
+}
+
+.mealplanner h1 {
+  text-align: center;
+  color: #f1f5f2;
+}
+
+.mealplanner-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5%;
+  padding-bottom: 40px;
+  margin: 0.9%;
+  background-color: #f1f5f2;
+  border-radius: 26px;
+  border: 2px solid #011627;
+}
+
+.mealplanner-area th,
+td {
+  font-weight: 400;
+  font-size: 120%;
+  text-align: center;
+}
+
+.mealplanner-start {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
+.mealplanner-start button {
+  width: 190px;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 15px 5px;
+  background-color: #f1f5f2;
+  border: 2px solid #011627;
+  font-size: 120%;
+  cursor: pointer;
+  border-bottom-width: 5px;
+}
+
+.mealplanner-start button:hover {
+  background-color: #011627;
+  color: #27c267;
+  border: 2px solid #0c3f21;
+  border-bottom-width: 5px;
+}
+
+.mealplanner-start button:active {
+  font-size: 80%;
+}
+
+.mealplanner-button-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+.mealplanner-button-area button {
+  width: 120px;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 10px 5px;
+
+  font-size: 100%;
+  cursor: pointer;
+  border-bottom-width: 5px;
+}
+
+.mealplanner-reset {
+  padding: 9%;
+}
+
+.mealplanner-reset button:hover {
+  background-color: #011627;
+  color: #bb0a21;
+  border: 2px solid #bb0a21;
+  border-bottom-width: 5px;
+}
+
+.mealplanner-reset button {
+  color: #f1f5f2;
+  background-color: #bb0a21;
+  border: 2px solid #011627;
+  border-bottom-width: 5px;
+}
+.mealplanner-button-area button:active {
+  font-size: 90%;
+  width: 110px;
+  height: 50px;
+}
+
+.mealplanner-meals {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+}
+
+.mealplanner-breakfast-button {
+  border: 2px solid #21897e;
+}
+
+.mealplanner-lunch-button {
+  border: 2px solid #835d69;
+}
+
+.mealplanner-dinner-button {
+  border: 2px solid #2d1e2f;
+}
+
+.mealplanner-snack-button {
+  border: 2px solid #a6963a;
+}
+
+.mealplanner-meals button:hover {
+  background-color: #011627;
+  color: #27c267;
+  border: 2px solid #16703c;
+  border-bottom-width: 5px;
+}
+
+.mealplanner-save {
+  padding: 40% 0;
+}
+
+.mealplanner-save button {
+  color: #f1f5f2;
+  background-color: #16703c;
+  border: 2px solid #011627;
+  border-bottom-width: 5px;
+}
+
+/* Mobile screen rotation */
+@media (max-width: 768px) {
+  .mealplanner-area td {
+    height: 80px;
+  }
+  .mealplanner-area table {
+    transform: rotate(90deg);
+    margin: 250px 0;
+    width: 60%;
+  }
+
+  .mealplanner-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .mealplanner-button-area {
+    margin: 190px;
+  }
+
+  .mealplanner-area td {
+    transform: rotate(-90deg);
+  }
+
+  .mealplanner-area form {
+    left: 7%;
+    right: 7%;
+    width: 80%;
+    padding: 10px;
+  }
+}
+
+.mealplanner-area form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mealplanner-area input[type="username"],
+.mealplanner-area input[type="mealPlanName"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 10px;
+  background-color: #fcfced;
+  border: none;
+  border-radius: 23px;
+}
+
+.mealplanner-area form input:focus {
+  border: 2px solid #16703c;
+  margin: 10px 20px;
+  outline: none;
+}
+
+.mealplanner-area form input[type="username"]:focus::placeholder,
+.mealplanner-area form input[type="mealPlanName"]:focus::placeholder {
+  color: transparent;
+}
+
+.mealplanner-save-button {
+  background-color: #16703c;
+  color: #f1f5f2;
+  border: 2px solid #011627;
+  border-bottom-width: 5px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom-width: 5px;
+}
+
+.mealplanner-save-button:active {
+  font-size: 13px;
+}
+
+.mealplanner-save-button:hover {
+  color: #2adf76;
+  background-color: #011627;
+  border: 2px solid #16703c;
+}

@@ -1,0 +1,82 @@
+.recipes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #16703c;
+  padding-top: 70px;
+  height: 100%;
+}
+
+.recipes h1 {
+  color: #f1f5f2;
+  text-align: center;
+}
+
+.recipes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recipes-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f5f2;
+  border: 1px solid #16703c;
+  padding: 10px;
+  padding-top: 0;
+  margin: 3%;
+  width: 250px;
+  height: 260px;
+  border: 3px solid #011627;
+  border-radius: 10px;
+}
+
+.recipes img {
+  object-fit: contain;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.recipes-card h3 {
+  color: #16703c;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-size: 100%;
+}
+
+.recipes a {
+  color: #16703c;
+  text-decoration: none;
+}
+
+.recipes-caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.recipe-button {
+  background-color: #011627;
+  color: #2adf76;
+  border: 2px solid #2a6339;
+  border-bottom-width: 5px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.recipe-button:active {
+  font-size: 13px;
+}
+
+.recipe-button:hover {
+  color: #2adf76;
+  background-color: #011627;
+  border: 2px solid #2adf76;
+}

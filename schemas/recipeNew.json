@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Recipe Schema",
+  "required": [
+    "vegetarian",
+    "vegan",
+    "dairyfree",
+    "weightwatchersmartpoints",
+    "creditstext",
+    "title",
+    "readyinminutes",
+    "servings",
+    "sourceurl",
+    "image",
+    "imagetype",
+    "dishtype",
+    "diets",
+    "summary"
+  ],
+  "properties": {
+    "vegetarian": {
+      "type": "boolean",
+      "default": false,
+      "title": "The vegetarian Schema",
+      "examples": [true]
+    },
+    "vegan": {
+      "type": "boolean",
+      "default": false,
+      "title": "The vegan Schema",
+      "examples": [false]
+    },
+    "dairyfree": {
+      "type": "boolean",
+      "default": false,
+      "title": "The dairyfree Schema",
+      "examples": [true]
+    },
+    "weightwatchersmartpoints": {
+      "type": "integer",
+      "default": 0,
+      "title": "The weightwatchersmartpoints Schema",
+      "examples": [5]
+    },
+    "creditstext": {
+      "type": "string",
+      "default": "",
+      "title": "The creditstext Schema",
+      "examples": ["Food Data API"]
+    },
+    "title": {
+      "type": "string",
+      "default": "",
+      "title": "The title Schema",
+      "examples": ["Healthy Salad"]
+    },
+    "readyinminutes": {
+      "type": "integer",
+      "default": 0,
+      "title": "The readyinminutes Schema",
+      "examples": [30]
+    },
+    "servings": {
+      "type": "integer",
+      "default": 0,
+      "title": "The servings Schema",
+      "examples": [2]
+    },
+    "sourceurl": {
+      "type": "string",
+      "default": "",
+      "title": "The sourceurl Schema",
+      "examples": ["https://www.foodwebsite.com/healthy-salad"]
+    },
+    "image": {
+      "type": "string",
+      "default": "",
+      "title": "The image Schema",
+      "examples": ["https://www.foodwebsite.com/images/healthy-salad.jpg"]
+    },
+    "imagetype": {
+      "type": "string",
+      "default": "",
+      "title": "The imagetype Schema",
+      "examples": ["jpg"]
+    },
+    "dishtype": {
+      "type": "string",
+      "default": "",
+      "title": "The dishtype Schema",
+      "examples": ["main course"]
+    },
+    "diets": {
+      "type": "string",
+      "default": "",
+      "title": "The diets Schema",
+      "examples": ["gluten free, dairy free"]
+    },
+    "summary": {
+      "type": "string",
+      "default": "",
+      "title": "The summary Schema",
+      "examples": [
+        "This is a delicious and healthy salad that is perfect for lunch or dinner. It is vegetarian, dairy free, and only has 5 Weight Watchers SmartPoints."
+      ]
+    }
+  },
+  "examples": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "dairyfree": true,
+      "weightwatchersmartpoints": 5,
+      "creditstext": "Food Data API",
+      "title": "Healthy Salad",
+      "readyinminutes": 30,
+      "servings": 2,
+      "sourceurl": "https://www.foodwebsite.com/healthy-salad",
+      "image": "https://www.foodwebsite.com/images/healthy-salad.jpg",
+      "imagetype": "jpg",
+      "dishtype": "main course",
+      "diets": "gluten free, dairy free",
+      "summary": "This is a delicious and healthy salad that is perfect for lunch or dinner. It is vegetarian, dairy free, and only has 5 Weight Watchers SmartPoints."
+    }
+  ]
+}
