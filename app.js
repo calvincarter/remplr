@@ -23,6 +23,10 @@ app.use(express.json());
 app.use(morgan("tiny"));
 app.use(authenticateJWT);
 
+// Sets up the Express app to handle data parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 // Static directory
 // if (process.env.NODE_ENV === "production") {
 app.use(express.static("./client/build"));
